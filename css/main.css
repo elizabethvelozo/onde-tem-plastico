@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Anaheim', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
