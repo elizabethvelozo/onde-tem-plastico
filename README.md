@@ -4,19 +4,19 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 
 ## Equipe
 
-- [Allisson Santos] (https://www.linkedin.com/in/allissonst)
+- [Allisson Santos](https://www.linkedin.com/in/allissonst)
 - [Ana Karla]
-- [Elizabeth Velozo] (https://www.linkedin.com/in/elizabethvelozo)
+- [Elizabeth Velozo](https://www.linkedin.com/in/elizabethvelozo)
 
 ## Disponível em:
 
-- [Site] (https://elizabethvelozo.github.io/onde-tem-plastico/)
+- [Site](https://elizabethvelozo.github.io/onde-tem-plastico/)
 
 ## Inspirações
 
-- [Layout inicial] (https://yourplanyourplanet.sustainability.google/)
-- [Design] (https://weaintplastic.com/)
-- [Minimalismo e Funcionalidades] (https://umavidasemlixo.com/)
+- [Layout inicial](https://yourplanyourplanet.sustainability.google/)
+- [Design](https://weaintplastic.com/)
+- [Minimalismo e Funcionalidades](https://umavidasemlixo.com/)
 
 ## Funcionalidades
 
