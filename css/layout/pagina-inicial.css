@@ -1,0 +1,14 @@
+.header-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-inicial__titulo {
+    font-size: 4em;
+}
+
+.header-inicial__subtitulo{
+    font-size: 2em;
+}
