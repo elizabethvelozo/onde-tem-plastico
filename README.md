@@ -5,7 +5,7 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 ## Equipe
 
 - [Allisson Santos](https://www.linkedin.com/in/allissonst)
-- [Ana Karla]
+- [Ana Karla](https://www.linkedin.com/in/ana-karla-alves-07450a215)
 - [Elizabeth Velozo](https://www.linkedin.com/in/elizabethvelozo)
 
 ## Disponível em:
