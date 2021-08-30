@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* HEADER DA PÁGINA INICIAL */
 .header-inicial {
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
@@ -20,6 +21,53 @@
     margin: auto;
     width: 70%;
 }
+/* FIM DA HEADER DA PÁGINA INICIAL */
+
+/* MENU ITEM */
+.menu-item__imagem {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+}
+
+.menu-item__botao{
+    border: 1px solid #E5E5E5;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    color: #000000;
+    text-decoration: none; 
+}
+
+.menu-item:hover .menu-item__botao--agua {
+    background-color: #829F9E;
+}
+
+.menu-item:hover .menu-item__botao--comida {
+    background-color: #B9583E;
+}
+
+.menu-item:hover .menu-item__botao--roupa {
+    background-color: #C88811;
+}
+
+.menu-item:hover .menu-item__botao--vida {
+    background-color: #7C8139;
+}
+
+.menu-item__botao i {
+    position: absolute;
+    right: 1em;
+    color: #C7C7C7;
+}
+
+.menu-item:hover .menu-item__botao i {
+    color: #000000;
+}
+
+/* FIM DO MENU ITEM */
 
 /* Breakpoint Tablet */
 @media screen and (min-width: 690px) {

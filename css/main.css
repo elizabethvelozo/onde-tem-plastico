@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Anaheim', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
