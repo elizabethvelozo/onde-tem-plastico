@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* HEADER DA PÁGINA INICIAL */
+/* HEADER */
 .header-inicial {
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
@@ -21,23 +21,31 @@
     margin: auto;
     width: 70%;
 }
-/* FIM DA HEADER DA PÁGINA INICIAL */
+/* FIM DA HEADER */
 
-/* MENU ITEM */
-.menu-item__imagem {
+/* MENU */
+
+.menu-inicial {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80%;
+    gap: 2em;
+    place-content: center;
+}
+
+.menu-item__imagem, .menu-item__botao {
     width: 100%;
     border: 1px solid #E5E5E5;
 }
 
-.menu-item__botao{
-    border: 1px solid #E5E5E5;
-    width: 100%;
+.menu-item__botao {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     padding: 0.5em 1em;
     color: #000000;
+    font-size: 1.5em;
     text-decoration: none; 
 }
 
@@ -67,7 +75,7 @@
     color: #000000;
 }
 
-/* FIM DO MENU ITEM */
+/* FIM DO MENU */
 
 /* Breakpoint Tablet */
 @media screen and (min-width: 690px) {
@@ -77,6 +85,11 @@
 
     .header-inicial__subtitulo {
         width: 50%;
+    }
+
+    .menu-inicial {
+        grid-template-columns: 35% 35%;
+        gap: 5em;
     }
 }
 
@@ -88,5 +101,10 @@
 
     .header-inicial__subtitulo {
         width: 30%;
+    }
+
+    .menu-inicial {
+        grid-template-columns: repeat(4, 20%);
+        gap: 2em;
     }
 }
