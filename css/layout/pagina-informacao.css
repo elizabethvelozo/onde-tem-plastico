@@ -1,25 +1,2 @@
 @charset "UTF-8";
 
-.videoplayer {
-    display: flex;
-    margin-inline: auto;
-    width: 79%;
-    height: 25vh;
-}
-
-.videoplayer iframe{
-    width: 100%;
-}
-
-@media screen and (min-width: 690px) {
-    .videoplayer {
-        width: 59%;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .videoplayer {
-        width: 50%;
-        height: 59vh;
-    }
-}
