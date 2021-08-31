@@ -1,1 +1,8 @@
 @charset "UTF-8";
+
+@import url("..css/componentes/botao.css");
+
+ul{
+    display: flex;
+    list-style: none;
+}
