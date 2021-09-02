@@ -6,3 +6,45 @@ ul{
     display: flex;
     list-style: none;
 }
+footer .footer-content{
+    display: grid;
+    text-align: center;
+    grid-gap: 2.500em;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer .footer-content section{
+    flex-basis: calc(100% / 3);
+}
+
+.iinfo{
+    float: right;
+}
+.sarisa{
+    text-align: center;  
+    position:fixed;
+    left:   50%;
+    margin-left: -4em;
+    margin-top: 0.9em;
+}
+    
+a{
+    text-decoration: none;
+}
+.saris{
+    color:#C7C7C7;
+    margin-top: 100em;
+}
+
+.contato{
+    margin-top: 2.5em;
+    color:#C7C7C7;
+}
+
+.linha-horizontal {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form{
+    color: black;
+}
