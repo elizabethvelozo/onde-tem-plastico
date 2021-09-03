@@ -5,15 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onde Tem Plástico</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Onde Tem Plástico?</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- fonte -->
+    <link rel="stylesheet" href="css/layout/pagina-inicial.css">
+    <link rel="stylesheet" href="css/componentes/rodape.css">
+
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    
+    <header class="header-inicial">
+        <h1 class="header-inicial__titulo">Onde Tem Plástico?</h1>
+        <p class="header-inicial__subtitulo">O plástico se torna ainda mais problemático quando ele é invisível. Os microplásticos ameaçam desde a existência de criaturas marinhas igualmente micros até a vida humana.</p>
+    </header>
+    <main>
+        <nav class="menu-inicial">
+            <div class="menu-item">
+                <img class="menu-item__imagem" src="imagens/pagina-inicial/menu-item-imagem-agua.png" alt="Mar Poluído">
+                <a class="menu-item__botao menu-item__botao--agua" href="paginas/agua.html" target="_blank" rel="next">
+                    <span>água</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item__imagem" src="imagens/pagina-inicial/menu-item-imagem-comida.jpg" alt="Caixa de leite">
+                <a class="menu-item__botao menu-item__botao--comida" href="paginas/comida.html" target="_blank" rel="next">
+                    <span>comida</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item__imagem" src="imagens/pagina-inicial/menu-item-imagem-roupa.jpg" alt="Roupa de plástico">
+                <a class="menu-item__botao menu-item__botao--roupa" href="paginas/roupa.html" target="_blank" rel="next">
+                    <span>roupa</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item__imagem" src="imagens/pagina-inicial/menu-item-imagem-vida.jpg" alt="Baleia com lixo">
+                <a class="menu-item__botao menu-item__botao--vida" href="paginas/vida.html" target="_blank" rel="next">
+                    <span>vida</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </nav>
+    </main>
+    <footer>
+        <div class="rodape-conteudo">
+            <div class="menu-social">
+              <ul>
+                  <li>
+                      <a class="botao botao--redondo botao--instagram" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                      <a class= "botao botao--redondo botao--twitter" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                      <a class= "botao botao--redondo botao--youtube" href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                  </li>
+              </ul>
+            </div>
+            <div class="contato">
+              <a class="email" href="#">ondetemplastico@email.com</a>
+              <hr>
+              <p class="copyright">2021 &copy; Equipe OTP</p>
+            </div>
+            <nav class="info">
+              <a class= "botao botao--redondo botao--info" href="paginas/informacao.html" target="_blank" rel="next">i</a>
+            </nav>
+        </div>
+        <div class="creditos">
+            <a href="#">Ilustrações por Sasi</a>
+        </div>
+    </footer>
 </body>
 </html>
