@@ -89,10 +89,3 @@ footer {
         justify-content: flex-end;
     }
 }
-
-/* Breakpoint Desktop */
-@media screen and (min-width: 1100px) {
-    .rodape-voltar {
-        padding-left: 5em;
-    }
-}
