@@ -1,50 +1,87 @@
 @charset "UTF-8";
 
-@import url("..css/componentes/botao.css");
-
-ul{
-    display: flex;
-    list-style: none;
-}
-footer .footer-content{
-    display: grid;
-    text-align: center;
-    grid-gap: 2.500em;
-    grid-template-columns: repeat(3, 1fr);
-}
-footer .footer-content section{
-    flex-basis: calc(100% / 3);
+footer {
+    padding: 2em 10% 0.3em;
+    border-bottom: 7px solid #232323;
 }
 
-.iinfo{
-    float: right;
-}
-.sarisa{
-    text-align: center;  
-    position:fixed;
-    left:   50%;
-    margin-left: -4em;
-    margin-top: 0.9em;
-}
-    
-a{
-    text-decoration: none;
-}
-.saris{
-    color:#C7C7C7;
-    margin-top: 100em;
+.rodape-voltar {
+    margin-bottom: 1.5em;
 }
 
-.contato{
-    margin-top: 2.5em;
-    color:#C7C7C7;
+.rodape-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  text-align: center;
 }
 
-.linha-horizontal {
-    text-align: center;
+.menu-social ul {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-social a.botao--instagram:hover {
+    color: #C13584;
+}
+
+.menu-social a.botao--twitter:hover {
+    color: #00ACEE;
+}
+
+.menu-social a.botao--youtube:hover {
+    color: #c4302b;
+}
+
+.info a.botao--info:hover {
+    color: #000000;
+}
+
+.contato a.email:hover {
     text-decoration: underline;
 }
 
-.form{
-    color: black;
+.contato hr {
+    height: 1px;
+    border: none;
+    background-color: #E5E5E5;
+    width: 10em;
+}
+
+.creditos {
+    text-align: center;
+}
+
+.copyright, .creditos a {
+    font-size: 0.75em;
+    color: #9f9f9f;
+}
+
+/* Breakpoint Tablet */
+@media screen and (min-width: 690px) {
+    footer {
+        padding-inline: 2em;
+    }
+
+    .rodape-conteudo {
+        padding-block: 2em;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .rodape-conteudo > * {
+        flex-basis: calc(100% / 3);
+    }
+}
+
+/* Breakpoint Desktop */
+@media screen and (min-width: 1100px) {
+    .rodape-voltar {
+        padding-left: 5em;
+    }
 }
