@@ -8,7 +8,7 @@ footer {
 }
 
 .rodape-voltar {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .rodape-conteudo {
@@ -67,6 +67,10 @@ footer {
 @media screen and (min-width: 690px) {
     footer {
         padding-inline: 10%;
+    }
+
+    .rodape-voltar {
+        margin-bottom: 1.5em;
     }
 
     .rodape-conteudo {
