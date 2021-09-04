@@ -4,7 +4,7 @@
     padding-block: 2em;
     display: flex;
     margin-inline: auto;
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 690px) {
     .videoplayer {
-        width: 60%;
+        width: 70%;
     }
 }
 
