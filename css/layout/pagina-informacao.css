@@ -7,13 +7,13 @@ article {
 }
 
 .corpo-artigo {
-    margin: 3em 1.5em;
+    margin-block: 3em;
     text-align: justify;
 }
 
 .corpo-artigo__imagem {
     border: 1px solid #E5E5E5;
-    width: 67vw;
+    width: 100%;
 }
 
 .limpar-float {
