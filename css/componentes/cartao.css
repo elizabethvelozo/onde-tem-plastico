@@ -1,1 +1,27 @@
 @charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+.cartao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cartao__imagem {
+    aspect-ratio: 4/3;
+    object-fit: fill;
+}
+
+.cartao__texto {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.cartao__texto p {
+    line-height: .8em;
+}
