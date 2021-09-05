@@ -1,3 +1,51 @@
 @charset "UTF-8";
 
-@import url("../componentes/cartao.css")
+@import url("../componentes/cartao.css");
+
+.duo {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    }
+
+.overlay1 {
+    background: url(imagens/pagina-agua/tartaruga-overlay.jpg) no-repeat;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width:26.625em;
+    height: 17.625em;
+    }
+
+.overlay2 {
+    background: url(https://media4.giphy.com/media/a9egkjDwv7QIZQCVnV/giphy.gif?cid=ecf05e476ei25gux5wkph10he86chf9svq03qdx963fpxlex&rid=giphy.gif&ct=g) no-repeat;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width:26.625em;
+    height: 17.625em;
+    background-size: 26.875em 18.750em;
+    opacity: 0.2;
+    }
+
+@media only screen and (max-width: 480px) {
+    .overlay1 {
+    position: relative;
+    top: 0em;
+    left: 0em;
+    width:17em;
+    height: 10em;
+    background-size: 13.475em 9.325em;
+    }
+    .overlay2 {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width:17em;
+    height: 10em;
+    opacity: 0.2;
+    background-size: 13.475em 9.325em;
+    }
+}
