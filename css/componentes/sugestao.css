@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.sugestao {
+    padding: 2em 1em;
+    background-color: #F8F8F4;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.sugestao-corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sugestao__icone {
+    margin: 1.3em 0.5em 0;
+    width: 70px;
+    position: absolute;
+}
+
+.sugestao__texto {
+    margin-block: 3.5em 2em;
+    padding: 1em 2em;
+    background-color: #FFFFFF;
+    text-align: justify;
+}
+
+.sugestao-corpo__imagem {
+    margin-inline: auto;
+    width: 70%;
+    object-fit: cover;
+}
+
+/* Breakpoint Tablet */
+@media screen and (min-width: 690px) {
+    .sugestao {
+        flex-direction: row;
+        margin-inline: 4em;
+        padding-inline: 4em 2em;
+    }
+
+    .sugestao-corpo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sugestao__icone {
+        padding: 1em;
+        margin: 0;
+        width: 130px;
+        height: 130px;
+        left: -65px;
+        top: 0;
+    }
+
+    .sugestao__texto {
+        padding-inline: 2.5em;
+        margin-block: 0;
+        width: 100%;
+    }
+
+    .sugestao-corpo__imagem {
+        margin: 0 0 0 -1em;
+        width: 180px;
+        height: 300px;
+    }
+}
+
+/* Breakpoint Desktop */
+@media screen and (min-width: 1100px) {
+    .sugestao {
+        margin-inline: 25%;
+    }
+
+    .sugestao__texto {
+        padding-inline: 3em;
+    }
+
+    .sugestao-corpo__imagem {
+        width: 25%;
+        height: 75%;
+    }
+}

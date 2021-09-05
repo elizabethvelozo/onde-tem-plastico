@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-body {
-    background-color: black;
-}
-
 .cartao {
     width: 100%;
     height: 100%;
@@ -23,5 +19,5 @@ body {
 }
 
 .cartao__texto p {
-    line-height: .8em;
+    line-height: 0.8em;
 }
