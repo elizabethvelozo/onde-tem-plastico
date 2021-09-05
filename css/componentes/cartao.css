@@ -1,18 +1,27 @@
 @charset "UTF-8";
 
+body {
+    background-color: black;
+}
+
 .cartao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cartao__imagem {
+    aspect-ratio: 4/3;
+    object-fit: fill;
+}
+
+.cartao__texto {
     background-color: #ffffff;
-    border-radius: 1px;
-    width: 200px;
-    height: 100px;
-}
-.cartao-1 img {
-    width: 200px;
-}
-.cartao-1 h4 {
     text-align: center;
-    text-decoration: line-through;  
 }
-.cartao-1 p {
-    text-align: center;  
+
+.cartao__texto p {
+    line-height: .8em;
 }
