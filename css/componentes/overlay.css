@@ -14,7 +14,7 @@
 }
 
 .overlay__imagem-fundo {
-    background: url(/imagens/pagina-agua/tartaruga-overlay.jpg) no-repeat;
+    background: url(../../imagens/pagina-agua/tartaruga-overlay.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
