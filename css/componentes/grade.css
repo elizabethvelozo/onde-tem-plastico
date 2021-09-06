@@ -3,7 +3,7 @@
 .grade {
     width: 100%;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
     gap: 2em;
     place-content: center;
 }
