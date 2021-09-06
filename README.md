@@ -21,7 +21,7 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 ## Funcionalidades
 
 - Padrão às páginas:
-    - layout responsivo com três tipos de modo de visualização: mobile, tablet e desktop.
+    - layout responsivo com três modos de visualização: mobile, tablet e desktop.
     - rodapé contendo menu social, área para contato, botão de informação e créditos.
 - Tela inicial: cabeçalho, menu navegação em grade.
 - Água: sobreposição de imagens flutuante sobre texto, seção de sugestão, grade de produtos.
