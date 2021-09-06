@@ -1,6 +1,6 @@
 # Onde Tem Plástico
 
-Projeto final da disciplina de Linguagens de Marcação. Um site informativo com enfoque nos caminhos invisíveis que o plástico traça e quais seriam as soluções viáveis para amenizar seu impacto ambiental. 
+Projeto final da disciplina de Linguagens de Marcação. Um site informativo com enfoque nos caminhos invisíveis que o plástico traça e quais seriam as soluções viáveis para amenizar seu impacto ambiental, tais quais se alinham com o movimento Lixo Zero. Design e funcionalidades pensados com o intuito de proporcionar uma experiência que gere reflexão sobre o minimalismo como estilo de vida.
 
 ## Equipe
 
@@ -16,11 +16,17 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 
 - [Layout inicial](https://yourplanyourplanet.sustainability.google/)
 - [Design](https://weaintplastic.com/)
-- [Minimalismo e Funcionalidades](https://umavidasemlixo.com/)
+- [Minimalismo e funcionalidades](https://umavidasemlixo.com/)
 
 ## Funcionalidades
 
--
+- Padrão às páginas:
+    - layout responsivo com três tipos de modo de visualização: mobile, tablet e desktop.
+    - rodapé contendo menu social, área para contato, botão de informação e créditos.
+- Tela inicial: cabeçalho, menu navegação em grade.
+- Água: sobreposição de imagens flutuante sobre texto, seção de sugestão, grade de produtos.
+- Informação: imagem flutuante sobre texto, vídeo incorporado.
+
 
 ## Requisitos da primeira etapa
 
