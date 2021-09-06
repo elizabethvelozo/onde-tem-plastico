@@ -1,23 +1,11 @@
 @charset "UTF-8";
 
-article {
-    padding: 3em 2em 5%;
-    margin-inline: auto;
-    max-width: 1440px;
-}
-
-.corpo-artigo {
-    margin: 3em 1em;
-    text-align: justify;
-}
+@import url("../componentes/video.css");
+@import url("../componentes/rodape.css");
 
 .corpo-artigo__imagem {
     border: 1px solid #E5E5E5;
     width: 100%;
-}
-
-.limpar-float {
-    clear: both;
 }
 
 .sublinha {
@@ -29,14 +17,6 @@ article {
 
 /* Breakpoint Tablet */
 @media screen and (min-width: 690px) {
-    article {
-        padding: 3em 5em 3%;
-    }
-
-    .corpo-artigo {
-        margin: 3em 2em;
-    }
-
     .corpo-artigo__imagem {
         display: block;
         float: right;
@@ -47,14 +27,6 @@ article {
 
 /* Breakpoint Desktop */
 @media screen and (min-width: 1100px) {
-    article {
-        padding: 4em 7em 3%;
-    }
-
-    .corpo-artigo {
-        margin: 3em 5em;
-    }
-
     .corpo-artigo__imagem {
         width: 17vw;
     }
