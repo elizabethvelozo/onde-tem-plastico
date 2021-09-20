@@ -103,6 +103,17 @@ main {
 }
 /* FIM DO MENU */
 
+/* FOOTER */
+.creditos {
+    text-align: center;
+}
+
+.creditos a {
+    font-size: 0.75em;
+    color: #9f9f9f;
+}
+/* FIM DO FOOTER */
+
 /* Breakpoint Tablet */
 @media screen and (min-width: 690px) {
     .header-inicial__titulo {
