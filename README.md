@@ -26,7 +26,7 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 - Tela inicial: cabeçalho, menu navegação em grade.
 - Água: sobreposição de imagens flutuante sobre texto, seção de sugestão, grade de produtos.
 - Informação: imagem flutuante sobre texto, vídeo incorporado.
-
+- Fale Conosco: fórmulario.
 
 ## Requisitos da primeira etapa
 
@@ -35,3 +35,10 @@ Projeto final da disciplina de Linguagens de Marcação. Um site informativo com
 3. Posicionamento de elementos utilizando conceito de layout em CSS: grid, flexbox, etc.
 4. Uso de Design Responsivo, com pelo menos dois modos diferentes de visualização, a depender da  resolução;
 5. Uso de, pelo menos, um recurso da Web (vídeo do youtube, formulário, mapa, etc).
+
+## Requisitos da segunda etapa
+
+1. Uso de, pelo menos, um formulário, com diferentes de tipos de entradas de dados nos formulários (inputs);
+2. Uso de animação ou transição;
+3. Realizar posicionamento de, pelo menos, um elemento HTML (relative, absolute, fixed ou sticky);
+4. Estilização da página usando alguma biblioteca de componentes como o Bootstrap.
